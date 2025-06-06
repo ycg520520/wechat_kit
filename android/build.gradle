@@ -80,3 +80,12 @@ android {
         }
     }
 }
+
+gradlePlugin {
+    plugins {
+        wechatSigning {
+            id = 'wechat-kit'
+            implementationClass = 'io.github.v7lin.wechat_kit'
+        }
+    }
+}
